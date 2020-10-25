@@ -1,0 +1,116 @@
+##################################################################################
+# webcam-portail Version 1.0 alpha                                               #
+#                                                                                #
+# Projet du 30/05/2002          dernière modification: 15/06/2002                #
+# Scripts Home:                 http://www.lespace.org                           #
+#              							                 #
+# Xoops-RC3 Version: 1.0 alpha                                                   #
+#                                                                                #
+# auteur           :            bidou                                            #
+# email            :            bidou@lespace.org                                #
+# Site web         :		http://www.lespace.org                           #
+# licence          :            Gpl                                              #
+##################################################################################
+# Mise à jour pour xoops V2 2.0.5.1 : sylvainb 16/12/2003                        #
+# Uniquement testé sous cette version                                            #
+# Tout n'est certainement pas parfait, mais le module fonctionne! ;)             #
+#                ---------------------------------------                         #
+# Updated for xoops V2 2.0.5.1: sylvainb 16/12/2003                              #
+# Only tested with this version of xoops                                         #
+# All is certainly not as clean as a real coder will done, but it's functional!  #
+##################################################################################
+Installation rc3 uniquement:
+
+Jettez un coup d'oeil sur le fichier modules/camportail/cache/config-inc.php pour eventuellement le modifier.
+ensuite,
+-Placez le module camportail dans le répertoire module de votre site xoopRC3
+-Accordez des droits en ecriture sur le repertoire modules/camportail/imgcam (chmod 777 si possible)
+-Accordez les droits neccessaire a son fonctionnement général (groupes)
+-Lancer le fichier install.php (votreURl/modules/camportail/install.php
+
+En cas de problèmes vous pouvez toujours me contacter sur mon modeste site ou par email ou bien vous renseigner auprès
+des sites industrialisés pour xoops.
+
+sylvainb :
+
+P.S: Fichier install.php renommé en old_install.php pour xoops V2.
+     De même, le répertoire lang_install a été renommé en old_lang_install.
+     Tous deux ne sont pas utiles à l'installation sous xoops V2.
+     Si vous souhaitez les utiliser, enlevez simplement le préfixe "old_" et procédez
+     à l'installation comme décrite ci-dessus.
+**********************************************************************************
+
+In English:
+
+Rc3 installation only:
+
+Have a look on the file modules/camportail/cache/config-inc.php for possibly then modifying it.
+- Place the module camportail in the directory modules your site xoopRC3
+- Grant rights in writing on the directory modules/camportail/imgcam (chmod 777 if possible)
+- Grant the necessary rights has its general operation (groups)
+- To launch the file install.php (yourURl/modules/camportail/install.php
+
+In the event of problems you can always contact me on my modest site or by email
+or inform you through xoops sites.
+ 
+sylvainb:
+
+P.S: install.php file renamed in old_install.php for xoops V2.
+     Also, the directory lang_install was renamed in old_lang_install. 
+     Both are not useful for the installation under xoops V2. 
+     If you wish to use them, remove simply the prefix "old _" and proceed 
+     to the installation as described above. 
+
+
+
+----------------------------------------------------------------------------------
+FRANCAIS
+
+Installation xoops V2 2.0.5.1
+
+Fixes : 
+        - Ajouts de variables pour le fonctionnement du module sous xoops V2.
+        - Installation/Désinstallation automatique des tables.
+          Les tables sont vierges. Vous trouverez de quoi les remplir
+          dans le répertoire "camportail\docs\sql\insert_camportail.sql".
+
+Bugs connus :
+        - Affichage des blocs de droite uniquement sur la page index du module.
+        - Disparition du lien d'administration dans le menu Utilisateur (enfin chez moi).
+        - L'administrateur/webmaster du site est lui aussi modéré.
+        
+        
+Pour l'installation, procédez comme pour n'importe quel autre module.
+Uploader le répertoire camportail dans le répertoire modules de votre site xoops.
+Allez dans la gestion des modules et lancez l'installation, les tables seront automatiquement créées.
+
+Je n'ai pas changé grand-chose, si ce n'est le fait que le module fonctionne.
+Alors si quelqu'un se sent l'âme de corriger les bugs...qu'il le fasse.
+
+sylvainb
+***************************************************************************************
+
+ENGLISH
+
+Installation xoops V2 2.0.5.1 
+
+Fixed: 
+        - Additions of variables to make the module working under xoops V2.
+        - Automatic installation/uninstallation of the tables.
+          The tables are virgin. You will find what to fill them 
+          in the directory "camportail\docs\sql\insert_camportail.sql".
+
+Bugs known: 
+        - Right blocks are only showed on the index page of the module.
+        - Disappearance of the Administration link in the User menu (it's the case for me).
+        - The site administrator/webmaster is also moderated.
+
+
+For the installation, proceed as for any other module. 
+Upload the camportail directory in the modules directory of your xoops site.
+Go in the modules management and launch the installation, the tables will be automatically created.
+I did not change large-thing, except the fact that the module is functional.
+So, if somebody feels the heart to correct the bugs... feel free to do it.
+
+sylvainb
+

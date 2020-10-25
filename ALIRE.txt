@@ -1,0 +1,30 @@
+##################################################################################
+# webcam-portail Version 1.0 alpha                                               #
+#                                                                                #
+# Projet du 30/05/2002          dernière modification: 15/06/2002                #
+# Scripts Home:                 http://www.lespace.org                           #
+#              							                 #
+# Xoops-RC3 Version: 1.0 alpha                                                   #
+#                                                                                #
+# auteur           :            bidou                                            #
+# email            :            bidou@lespace.org                                #
+# Site web         :		http://www.lespace.org                           #
+# licence          :            Gpl                                              #
+##################################################################################
+
+
+Installation rc3 uniquement:
+
+Jettez un coup d'oeil sur le fichier modules/camportail/cache/config-inc.php pour eventuellement le modifier.
+ensuite,
+-Placez le module camportail dans le répertoire module de votre site xoopRC3
+-Accordez des droits en ecriture sur le repertoire modules/camportail/imgcam (chomd 777 si possible)
+-Accordez les droits neccessaire a son fonctionnement général (groupes)
+-Lancer le fichier install.php (votreURl/modules/camportail/install.php
+
+En cas de problèmes vous pouvez toujours me contacter sur mon modeste site ou par email ou bien vous renseigner auprès
+des sites industrialisés pour xoop.
+
+
+
+
